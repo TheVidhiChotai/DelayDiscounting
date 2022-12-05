@@ -1,0 +1,114 @@
+4.6805 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', ''] (in that order).
+11.7077 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+13.4054 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000268816B1E80>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026881BD4910>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.4055 	EXP 	window1: mouseVisible = True
+13.4057 	EXP 	window1: mouseVisible = False
+13.4057 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.4057 	EXP 	window1: recordFrameIntervals = False
+13.5720 	EXP 	window1: recordFrameIntervals = True
+13.7556 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+13.7556 	EXP 	window1: recordFrameIntervals = False
+15.9968 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=45.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.0292 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.0836 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.3]), rgb=UNKNOWN, text='Today', units='height', win=Window(...), wrapWidth=1)
+16.0908 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=UNKNOWN, text='Later', units='height', win=Window(...), wrapWidth=1)
+16.0915 	EXP 	window1: mouseVisible = True
+16.0982 	EXP 	Imported Conditions.xlsx as conditions, 7 conditions, 3 params
+16.0986 	EXP 	Created sequence: sequential, trialTypes=7, nReps=1, seed=None
+16.0989 	EXP 	New trial (rep=0, index=0): {'reward_today': 902, 'future_reward': 2460, 'delay': 7}
+16.1219 	DATA 	Keypress: space
+16.1309 	EXP 	text: height = 0.05
+16.1309 	EXP 	text: height = 0.05
+16.1309 	EXP 	text: height = 0.05
+16.1309 	EXP 	text: text = 'USD 902 today or  USD 2460 after 7 days'
+16.1309 	EXP 	fixation: autoDraw = True
+17.1064 	EXP 	text: autoDraw = True
+17.1064 	EXP 	text_2: autoDraw = True
+17.1064 	EXP 	text_3: autoDraw = True
+17.1398 	EXP 	fixation: autoDraw = False
+18.0071 	DATA 	Mouse: Left button down, pos=(464,208)
+18.0092 	EXP 	New trial (rep=0, index=1): {'reward_today': 1230, 'future_reward': 2870, 'delay': 13}
+18.0249 	EXP 	fixation: autoDraw = False
+18.0249 	EXP 	text: autoDraw = False
+18.0249 	EXP 	text_2: autoDraw = False
+18.0249 	EXP 	text_3: autoDraw = False
+18.0249 	EXP 	text: height = 0.05
+18.0249 	EXP 	text: height = 0.05
+18.0249 	EXP 	text: height = 0.05
+18.0249 	EXP 	text: text = 'USD 1230 today or  USD 2870 after 13 days'
+18.0249 	EXP 	fixation: autoDraw = True
+18.2256 	DATA 	Mouse:  Left button up, pos=(464,208)
+19.0240 	EXP 	fixation: autoDraw = False
+19.0240 	EXP 	text: autoDraw = True
+19.0240 	EXP 	text_2: autoDraw = True
+19.0240 	EXP 	text_3: autoDraw = True
+20.6249 	DATA 	Mouse: Left button down, pos=(1501,203)
+20.6264 	EXP 	New trial (rep=0, index=2): {'reward_today': 2214, 'future_reward': 4100, 'delay': 21}
+20.6412 	EXP 	fixation: autoDraw = False
+20.6412 	EXP 	text: autoDraw = False
+20.6412 	EXP 	text_2: autoDraw = False
+20.6412 	EXP 	text_3: autoDraw = False
+20.6412 	EXP 	text: height = 0.05
+20.6412 	EXP 	text: height = 0.05
+20.6412 	EXP 	text: height = 0.05
+20.6412 	EXP 	text: text = 'USD 2214 today or  USD 4100 after 21 days'
+20.6412 	EXP 	fixation: autoDraw = True
+20.8597 	DATA 	Mouse:  Left button up, pos=(1501,203)
+21.6415 	EXP 	fixation: autoDraw = False
+21.6415 	EXP 	text: autoDraw = True
+21.6415 	EXP 	text_2: autoDraw = True
+21.6415 	EXP 	text_3: autoDraw = True
+22.7426 	DATA 	Mouse: Left button down, pos=(398,210)
+22.7444 	EXP 	New trial (rep=0, index=3): {'reward_today': 3280, 'future_reward': 4510, 'delay': 62}
+22.7586 	EXP 	fixation: autoDraw = False
+22.7586 	EXP 	text: autoDraw = False
+22.7586 	EXP 	text_2: autoDraw = False
+22.7586 	EXP 	text_3: autoDraw = False
+22.7586 	EXP 	text: height = 0.05
+22.7586 	EXP 	text: height = 0.05
+22.7586 	EXP 	text: height = 0.05
+22.7586 	EXP 	text: text = 'USD 3280 today or  USD 4510 after 62 days'
+22.7586 	EXP 	fixation: autoDraw = True
+22.9606 	DATA 	Mouse:  Left button up, pos=(398,210)
+23.7595 	EXP 	fixation: autoDraw = False
+23.7595 	EXP 	text: autoDraw = True
+23.7595 	EXP 	text_2: autoDraw = True
+23.7595 	EXP 	text_3: autoDraw = True
+24.4929 	DATA 	Mouse: Left button down, pos=(398,210)
+24.4949 	EXP 	New trial (rep=0, index=4): {'reward_today': 4018, 'future_reward': 4920, 'delay': 89}
+24.5092 	EXP 	fixation: autoDraw = False
+24.5092 	EXP 	text: autoDraw = False
+24.5092 	EXP 	text_2: autoDraw = False
+24.5092 	EXP 	text_3: autoDraw = False
+24.5092 	EXP 	text: height = 0.05
+24.5092 	EXP 	text: height = 0.05
+24.5092 	EXP 	text: height = 0.05
+24.5092 	EXP 	text: text = 'USD 4018 today or  USD 4920 after 89 days'
+24.5092 	EXP 	fixation: autoDraw = True
+24.7116 	DATA 	Mouse:  Left button up, pos=(398,210)
+25.5096 	EXP 	fixation: autoDraw = False
+25.5096 	EXP 	text: autoDraw = True
+25.5096 	EXP 	text_2: autoDraw = True
+25.5096 	EXP 	text_3: autoDraw = True
+26.1270 	DATA 	Mouse: Left button down, pos=(1367,393)
+26.3439 	DATA 	Mouse:  Left button up, pos=(1367,393)
+26.9608 	DATA 	Mouse: Left button down, pos=(1043,773)
+27.1774 	DATA 	Mouse:  Left button up, pos=(1043,773)
+28.3277 	DATA 	Mouse: Left button down, pos=(1510,198)
+28.3297 	EXP 	New trial (rep=0, index=5): {'reward_today': 5494, 'future_reward': 6150, 'delay': 119}
+28.3442 	EXP 	fixation: autoDraw = False
+28.3442 	EXP 	text: autoDraw = False
+28.3442 	EXP 	text_2: autoDraw = False
+28.3442 	EXP 	text_3: autoDraw = False
+28.3442 	EXP 	text: height = 0.05
+28.3442 	EXP 	text: height = 0.05
+28.3442 	EXP 	text: height = 0.05
+28.3442 	EXP 	text: text = 'USD 5494 today or  USD 6150 after 119 days'
+28.3442 	EXP 	fixation: autoDraw = True
+28.5464 	DATA 	Mouse:  Left button up, pos=(1510,198)
+29.3446 	EXP 	fixation: autoDraw = False
+29.3446 	EXP 	text: autoDraw = True
+29.3446 	EXP 	text_2: autoDraw = True
+29.3446 	EXP 	text_3: autoDraw = True
+31.2291 	DATA 	Keypress: escape
+32.1849 	EXP 	window1: mouseVisible = True
